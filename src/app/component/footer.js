@@ -17,7 +17,7 @@ export default function Footer() {
           href="/"
           className={`text-xl text-gray-800 hover:text-orange-700 transition-all duration-300 ${breeSerif.className}`}
         >
-          Ayaan Khanna
+          Ayaan Raj Khanna
         </a>
 
         <div className="flex mt-4 md:mt-0 space-x-4">
@@ -65,7 +65,7 @@ export default function Footer() {
       </div>
 
       <div className="text-center text-sm text-gray-500 pb-6 mt-2">
-        © {new Date().getFullYear()} Ayaan Khanna. All rights reserved.
+        © {new Date().getFullYear()} Ayaan Raj Khanna. All rights reserved.
       </div>
     </footer>
   );

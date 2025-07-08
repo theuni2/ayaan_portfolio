@@ -9,9 +9,9 @@ export default function Slideltor() {
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
           Research & Global Partnerships
         </h1>
-        <p className="text-lg text-gray-600 mt-4 max-w-3xl mx-auto">
+        {/* <p className="text-lg text-gray-600 mt-4 max-w-3xl mx-auto">
           Through strategic collaborations with <strong>25+ professors and institutions</strong>, we connect students to impactful research internships across domains like AI, Climate, Economics, and more.
-        </p>
+        </p> */}
       </div>
 
       {/* Slider Section */}

@@ -18,7 +18,7 @@ export default function Nav() {
       <div className="container mx-auto flex flex-wrap p-5 flex-row items-center justify-between">
         {/* Logo Section */}
         <Link href="/" className="flex title-font font-medium items-center text-gray-900">
-          <span className={`${breeSerif.className} ml-3 text-xl`}>Ayaan Khanna</span>
+          <span className={`${breeSerif.className} ml-3 text-xl`}>Ayaan Raj Khanna</span>
         </Link>
 
         {/* Hamburger */}
