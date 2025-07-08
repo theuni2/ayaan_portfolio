@@ -11,11 +11,15 @@ export default function Page() {
   const experiences = [
     {
       title: 'Head of Computer Science Society',
-      content: `Organizing and running Computer Science Society, managing clubs, hosting hackathons/workshops, and compiling photos from sessions for the yearbook. Writing the newsletter for the club and writing/managing and formatting the Yearly Magazine`,
+      content: `Joined CS Society in Grade 9, grew it into a schoolwide platform with 10+ workshops, 2 hackathons, and a magazine that documented our journey.`,
     },
     {
       title: 'Founder and Head of Design Society',
-      content: 'Helping students explore creative problem solving through activities like 3D printing, prototyping and sketching. Learning CAD Skills, design history.',
+      content: 'Mentored 30+ students in CAD and design history, developing technical fluency.Created portfolio-ready projects that address real-life issues.',
+    },
+    {
+      title: 'Engineering Intern & Project Manager',
+      content: 'At PEEC Mobility, I worked on reimagining a classic 1971 Fiat 500 as an electric vehicle, combining vintage aesthetics with modern sustainability. This project explored how retrofitting legacy vehicles can promote circular innovation and contribute to the future of eco-friendly transportation.',
     },
     {
       title: 'Team Manager & Head Engineer',
@@ -26,8 +30,8 @@ export default function Page() {
       content: 'Manage media for Muga League; filme/edite all games and lead talent recruitment to grow this intra-school basketball league.',
     },
     {
-      title: '⁠Chief Executive Officer at Logic Labs',
-      content: 'CEO of Logic Labs; design and produce CS hardware kits for schools, align content with curriculum, source parts, and lead course development.',
+      title: 'Founder & CEO at Logic Labs',
+      content: 'Sold CS hardware kits via Logic Labs, raising AED 1K. Built robotics labs with Pehchaan Street School, driving STEM access to underserved students.',
     },
     {
       title: '⁠Head of Media for the Sustainability Club',
@@ -36,6 +40,14 @@ export default function Page() {
     {
       title: 'Junior Volunteering Coach',
       content: 'Volunteer weekly as junior coach at golf academy; assist with training younger players and support coaches in developing core skills.',
+    },
+    {
+      title: 'Independent Drone Engineer',
+      content: 'Trained a drone to fly by itself and navigate directions through GPS tracking.',
+    },
+    {
+      title: 'Head of Dubai College Debrief',
+      content: 'Co-created student podcast covering global campus issues.Produced over 25 episodes amplifying student perspectives on school policies and mental health.',
     },
   ];
 

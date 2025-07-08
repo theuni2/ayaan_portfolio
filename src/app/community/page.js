@@ -10,11 +10,11 @@ export default function Page() {
     },
     {
       title: 'LAMDA Acting (Grade 8 in Progress) (2020–Present)',
-      description: 'Achieved distinction in all LAMDA exams. Performs monologues/dialogues in showcases.',
+      description: 'Trained over 200 hrs in vocal technique earning LAMDA Grade 6 Distinction.Explored ambition and instability through Macbeth and Pinter’s fractured characters.',
     },
     {
       title: 'Head of Media – Sustainability Club (2023–Present)',
-      description: 'Creates visual content, newsletters, and yearbook contributions.',
+      description: 'Created over 10 visual campaigns spotlighting student-led sustainability efforts.Filmed 5 events and wrote newsletters to drive eco-action on campus.',
     },
   ];
 
