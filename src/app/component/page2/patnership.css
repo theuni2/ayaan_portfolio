@@ -1,0 +1,59 @@
+.slider-left {
+    width: 100%;    
+    /* overflow: hidden;  Hide anything outside the slider */
+    /* position: relative; */
+    animation: scroll-left 30s linear infinite;    
+}  
+/* Keyframe animation for endless scrolling */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-147.5%);
+    }
+}
+
+/* Container for the sliding images */
+.slider-right {
+    width: 100%;     
+    /* overflow: hidden;  Hide anything outside the slider */
+    /* position: relative; */
+    animation: scroll-right 30s linear infinite;    
+}
+  
+/* Keyframe animation for endless scrolling */
+@keyframes scroll-right {
+    0% {
+        transform: translateX(-147.5%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+
+/* Apply to the text element */
+.animated-gradient-text {
+    /* font-size: 3rem;
+    font-weight: bold; */
+    background: linear-gradient(90deg, #0052cc, #ff7e00, #0052cc);
+    background-size: 300% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gradient-animation 5s ease-in-out infinite;
+}
+
+/* Define the animation */
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
