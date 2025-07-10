@@ -7,6 +7,7 @@ import Footer from '../component/footer';
 import Slideltor from '../component/page2/slideltor';
 import ResearchSection from '../component/page2/paper_link';
 import Teaser from '../component/page2/teaser';
+import Gallery from '../component/page2/gallery';
 import Engineering from '../component/page2/engineering';
 
 export default function Page() {
@@ -30,6 +31,7 @@ export default function Page() {
       <div id="research"><ResearchSection /></div>
       <div id="teaser"><Teaser /></div>
       <div id="engineering"><Engineering /></div>
+      <div id="gallery"><Gallery /></div>
       <Footer />
     </div>
   );

@@ -54,6 +54,7 @@ export default function Nav() {
           <Link href="/" className="text-gray-800 hover:text-orange-600" onClick={() => setIsOpen(false)}>Leadership</Link>
           <Link href="/activity#research" className="text-gray-800 hover:text-orange-600" onClick={() => setIsOpen(false)}>Research/Publication</Link>
           <Link href="/activity#engineering" className="text-gray-800 hover:text-orange-600" onClick={() => setIsOpen(false)}>Engineering</Link>
+          <Link href="/activity#gallery" className="text-gray-800 hover:text-orange-600" onClick={() => setIsOpen(false)}>Gallery</Link>
           <Link href="/work_ex" className="text-gray-800 hover:text-orange-600" onClick={() => setIsOpen(false)}>Work Experience</Link>
           <Link href="/community" className="text-gray-800 hover:text-orange-600" onClick={() => setIsOpen(false)}>Community Service</Link>
         </nav>

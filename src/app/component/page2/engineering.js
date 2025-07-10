@@ -84,7 +84,7 @@ export default function Engineering() {
               </div>
               <h3 className="font-bold italic mb-3">{project.title}</h3>
               <p className="text-sm mb-4">{project.description}</p>
-              <p className="text-xs font-semibold italic">WATCH HERE:</p>
+              {/* <p className="text-xs font-semibold italic">WATCH HERE:</p>
               <a
                 href={project.video}
                 target="_blank"
@@ -92,7 +92,7 @@ export default function Engineering() {
                 className="text-orange-500 text-sm underline break-all"
               >
                 {project.video}
-              </a>
+              </a> */}
             </div>
           ))}
         </div>

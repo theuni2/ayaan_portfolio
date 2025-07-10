@@ -67,7 +67,7 @@ export default function Page() {
           </h2>
 
           <a
-            href="https://www.linkedin.com" // Update with real link
+            href="https://www.linkedin.com/in/ayaan-raj-khanna-316529324/" // Update with real link
             target="_blank"
             rel="noopener noreferrer"
             className="bg-orange-400 hover:bg-orange-500 text-white font-semibold rounded-full px-8 py-4 mb-8 transition"
@@ -76,7 +76,7 @@ export default function Page() {
           </a>
 
           <img
-            src="/images/experience-img.png"
+            src="images/x4/x41.jpeg"
             alt="Experience"
             className="w-[300px] rounded shadow"
           />

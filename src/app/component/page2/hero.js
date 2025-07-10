@@ -21,6 +21,7 @@ export default function Hero() {
 
       {/* Text Content */}
       <div className="relative z-10 text-center px-6 md:px-0">
+        {/* bg-[#001f5f] */}
         <h1
           className={`${lobster.className} text-5xl md:text-6xl font-bold text-blue-700 mb-6 drop-shadow-lg`}
         >

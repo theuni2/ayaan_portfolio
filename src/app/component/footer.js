@@ -21,19 +21,8 @@ export default function Footer() {
         </a>
 
         <div className="flex mt-4 md:mt-0 space-x-4">
-          <a href="#" className="text-gray-500 hover:text-orange-600 transition-transform transform hover:scale-110">
-            <svg
-              fill="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              className="w-6 h-6"
-              viewBox="0 0 24 24"
-            >
-              <path d="M23 3a10.9 10.9 0 01-3.14 1.53A4.48 4.48 0 0016 2a4.5 4.5 0 00-4.5 4.5v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
-            </svg>
-          </a>
-          <a href="#" className="text-gray-500 hover:text-orange-600 transition-transform transform hover:scale-110">
+         
+          <a href="https://www.instagram.com/p/DL4ec6Kvmji/?igsh=MWYyb2FhbXRydHd0MA%3D%3D" className="text-gray-500 hover:text-orange-600 transition-transform transform hover:scale-110">
             <svg
               fill="none"
               stroke="currentColor"
@@ -47,7 +36,7 @@ export default function Footer() {
               <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01" />
             </svg>
           </a>
-          <a href="#" className="text-gray-500 hover:text-orange-600 transition-transform transform hover:scale-110">
+          <a href="https://www.linkedin.com/in/ayaan-raj-khanna-316529324/" className="text-gray-500 hover:text-orange-600 transition-transform transform hover:scale-110">
             <svg
               fill="currentColor"
               stroke="currentColor"
