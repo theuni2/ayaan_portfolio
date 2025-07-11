@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from '../component/nav';
+import Slider from '../work_ex/gallery';
 import Footer from '../component/footer';
 
 export default function Page() {
@@ -41,6 +42,7 @@ export default function Page() {
       </div>
 
     </section>
+    <Slider/>
     <Footer/>
     </div>
   );

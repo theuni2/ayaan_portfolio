@@ -46,11 +46,11 @@ export default function Engineering() {
       image: "/images/robotics.jpeg",
     },
     {
-      title: "Let me know if can add anything",
+      title: "4x4 in Schools – Professional Category",
       description:
-        "Processed brainwaves through DL algorithms, FFT analysis, modelled and 3d-printed a 7 DoF prosthetic controlled through eye movements for locked in patients",
+        "Re-engineered a 4x4 with our 5-member school team for nationals. Led engineering upgrades, beating two university teams at Yas Marina with precision",
       video: "Link not available",
-      image: "/images/img2.png",
+      image: "/images/x4/x43.jpeg",
     },
     {
       title: "Building a drone with autonomous capabilities",

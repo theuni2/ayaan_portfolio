@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import Nav from '../component/nav';
 import Footer from '../component/footer';
+// import Slider from './gallery';
 
 export default function Page() {
 
@@ -103,6 +104,7 @@ export default function Page() {
         </div>
       </div>
     </section>
+  
     <Footer/>
     </div>
   );
