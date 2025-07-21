@@ -49,7 +49,7 @@ export default function ResearchSection() {
               “Algorithmic Flight Control Theory and Predictive Modelling in Autonomous Drone Navigation”
             </h3>
             <p className="text-sm mb-2">
-              During school year and During school break (wanted date)
+              Conducted during school year and break. Focused on optimizing AI-assisted drone motion under constraints.
             </p>
             <a
               href=""
@@ -60,8 +60,28 @@ export default function ResearchSection() {
               Ongoing – To Be Published
             </a>
           </div>
+
+          {/* Paper 3 – HPQ Project */}
+          <div className="text-center md:text-left">
+            <h3 className="text-orange-400 font-extrabold italic text-lg mb-2">
+              HPQ Project:<br />
+              “Impact of Overthinking on Golf Performance”
+            </h3>
+            <p className="text-sm mb-2">
+              This research explores the cognitive-emotional aspects of athletic performance, focusing on how overthinking impairs decision-making and consistency in golf.
+            </p>
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-300 underline text-sm"
+            >
+              Available on request – HPQ Submission 2025
+            </a>
+          </div>
         </div>
       </div>
     </section>
   );
 }
+

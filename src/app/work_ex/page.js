@@ -10,14 +10,14 @@ export default function Page() {
   const [activeIndex, setActiveIndex] = useState(0); // 0 is the first item opened
 
   const experiences = [
-    {
-      title: 'Head of Computer Science Society',
-      content: `Joined CS Society in Grade 9, grew it into a schoolwide platform with 10+ workshops, 2 hackathons, and a magazine that documented our journey.`,
-    },
-    {
-      title: 'Founder and Head of Design Society',
-      content: 'Mentored 30+ students in CAD and design history, developing technical fluency.Created portfolio-ready projects that address real-life issues.',
-    },
+    // {
+    //   title: 'Head of Computer Science Society',
+    //   content: `Joined CS Society in Grade 9, grew it into a schoolwide platform with 10+ workshops, 2 hackathons, and a magazine that documented our journey.`,
+    // },
+    // {
+    //   title: 'Founder and Head of Design Society',
+    //   content: 'Mentored 30+ students in CAD and design history, developing technical fluency.Created portfolio-ready projects that address real-life issues.',
+    // },
     {
       title: 'Engineering Intern & Project Manager',
       content: 'At PEEC Mobility, I worked on reimagining a classic 1971 Fiat 500 as an electric vehicle, combining vintage aesthetics with modern sustainability. This project explored how retrofitting legacy vehicles can promote circular innovation and contribute to the future of eco-friendly transportation.',
@@ -34,10 +34,10 @@ export default function Page() {
       title: 'Founder & CEO at Logic Labs',
       content: 'Sold CS hardware kits via Logic Labs, raising AED 1K. Built robotics labs with Pehchaan Street School, driving STEM access to underserved students.',
     },
-    {
-      title: '⁠Head of Media for the Sustainability Club',
-      content: 'Lead media for Sustainability Club; design posters, film events, write monthly newsletter, and create yearbook page and social content.',
-    },
+    // {
+    //   title: '⁠Head of Media for the Sustainability Club',
+    //   content: 'Lead media for Sustainability Club; design posters, film events, write monthly newsletter, and create yearbook page and social content.',
+    // },
     {
       title: 'Junior Volunteering Coach',
       content: 'Volunteer weekly as junior coach at golf academy; assist with training younger players and support coaches in developing core skills.',
@@ -74,6 +74,14 @@ export default function Page() {
             className="bg-orange-400 hover:bg-orange-500 text-white font-semibold rounded-full px-8 py-4 mb-8 transition"
           >
             Visit LinkedIn For More Information
+          </a>
+          <a
+            href="https://www.instagram.com/p/DL4ec6Kvmji/?igsh=MWYyb2FhbXRydHd0MA%3D%3D" // Update with real link
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-orange-400 hover:bg-orange-500 text-white font-semibold rounded-full px-8 py-4 mb-8 transition"
+          >
+            Visit Instagram For More Information
           </a>
 
           <img

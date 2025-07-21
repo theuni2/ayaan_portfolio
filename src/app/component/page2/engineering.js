@@ -41,22 +41,22 @@ export default function Engineering() {
     {
       title: "Building a Rubrics Cube Solving Robot & Hosting Workshop",
       description:
-        "After building my own rubrics cube solver launched a workshop that selected 20 students,  who are passionate in robotics, to build their own robot.",
-      video: "Link not available",
-      image: "/images/robotics.jpeg",
+        "Launched a hands-on robotics workshop after building my own Rubik’s Cube solver, empowering 20 passionate students to build their own robots.",
+      video: "",
+      image: "/images/extra/rubric.jpeg",
     },
     {
       title: "4x4 in Schools – Professional Category",
       description:
         "Re-engineered a 4x4 with our 5-member school team for nationals. Led engineering upgrades, beating two university teams at Yas Marina with precision",
-      video: "Link not available",
+      video: "/4x4",
       image: "/images/x4/x43.jpeg",
     },
     {
       title: "Building a drone with autonomous capabilities",
       description:
         "Designed and built a custom drone with autonomous capabilities to follow waypoints and complete missions without human intervention.",
-      video: "Link not available",
+      video: "",
       image: "/images/rp2.png",
     },
 
@@ -84,15 +84,15 @@ export default function Engineering() {
               </div>
               <h3 className="font-bold italic mb-3">{project.title}</h3>
               <p className="text-sm mb-4">{project.description}</p>
-              {/* <p className="text-xs font-semibold italic">WATCH HERE:</p>
+              <p className="text-xs font-semibold italic"></p>
               <a
                 href={project.video}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-orange-500 text-sm underline break-all"
               >
-                {project.video}
-              </a> */}
+                {project.video==''?'':"Learn More"}
+              </a>
             </div>
           ))}
         </div>

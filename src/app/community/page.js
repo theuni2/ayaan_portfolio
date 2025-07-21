@@ -6,17 +6,17 @@ import Footer from '../component/footer';
 export default function Page() {
   const communityRoles = [
     {
-      title: 'Golf Assistant Coach – Tommy Fleetwood Academy (2021–Present)',
+      title: 'Assistant to a Golf Coach – Tommy Fleetwood Academy (2021–Present)',
       description: 'Supports junior coaching weekly, helping develop core skills for ages 7–10.',
     },
     {
       title: 'LAMDA Acting (Grade 8 in Progress) (2020–Present)',
       description: 'Trained over 200 hrs in vocal technique earning LAMDA Grade 6 Distinction.Explored ambition and instability through Macbeth and Pinter’s fractured characters.',
     },
-    {
-      title: 'Head of Media – Sustainability Club (2023–Present)',
-      description: 'Created over 10 visual campaigns spotlighting student-led sustainability efforts.Filmed 5 events and wrote newsletters to drive eco-action on campus.',
-    },
+    // {
+    //   title: 'Head of Media – Sustainability Club (2023–Present)',
+    //   description: 'Created over 10 visual campaigns spotlighting student-led sustainability efforts.Filmed 5 events and wrote newsletters to drive eco-action on campus.',
+    // },
   ];
 
   return (
