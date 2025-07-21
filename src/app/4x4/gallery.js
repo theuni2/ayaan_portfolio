@@ -6,17 +6,10 @@ const breeSerif = Bree_Serif({
 });
 
 
-import Head from 'next/head';
 import Image from 'next/image';
-// import Image from 'next/image';
-import { motion } from 'framer-motion';
 
 export default function Gallery() {
-  const messages = [
-    { src: '/images/peec/peec1.jpeg', alt: 'Chat message 1' },
-    { src: '/images/peec/peec2.jpeg', alt: 'Chat message 2' },
-    { src: '/images/peec/peec3.jpeg', alt: 'Chat message 3' },
-  ];
+
 
   const x4 = [
     { src: '/images/x4/x41.jpeg', alt: 'Chat message 2' },
@@ -28,12 +21,7 @@ export default function Gallery() {
   ];
 
   
-  const extra = [
-    // { src: '/images/extra/img.jpeg', alt: 'Chat message 1' },
-    { src: '/images/extra/img1.jpeg', alt: 'Chat message 2' },
-    { src: '/images/extra/img2.jpeg', alt: 'Chat message 3' },
-    
-  ];
+
 
   return (
     <>

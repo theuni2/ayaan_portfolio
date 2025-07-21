@@ -5,6 +5,7 @@ const breeSerif = Bree_Serif({
   weight: ["400"],
 });
 
+'use client';
 
 import Head from 'next/head';
 import Image from 'next/image';
@@ -20,7 +21,7 @@ export default function Gallery() {
 
   const x4 = [
     { src: '/images/x4/x41.jpeg', alt: 'Chat message 2' },
-    { src: '/images/x4/x4.jpeg', alt: 'Chat message 1' },
+    { src: '/images/x4/x4.jpeg', alt:  'Chat message 1' },
     { src: '/images/x4/x42.jpeg', alt: 'Chat message 3' },
     { src: '/images/x4/x43.jpeg', alt: 'Chat message 3' },
     { src: '/images/x4/x45.jpeg', alt: 'Chat message 3' },
