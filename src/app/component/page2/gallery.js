@@ -1,3 +1,4 @@
+'use client';
 // pages/index.js
 import { Bree_Serif } from "next/font/google";
 const breeSerif = Bree_Serif({
@@ -5,7 +6,6 @@ const breeSerif = Bree_Serif({
   weight: ["400"],
 });
 
-'use client';
 
 import Head from 'next/head';
 import Image from 'next/image';
