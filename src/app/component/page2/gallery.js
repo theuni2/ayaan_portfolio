@@ -37,17 +37,17 @@ export default function Gallery() {
   ];
 
   return (
-    <>
+    <div className="bg-black">
     <div>
       <Head>
         <title>Wall Of Love</title>
       </Head>
-      <main className="min-h-screen bg-black text-white flex flex-col items-center justify-start py-12 px-4">
+      <main className="min-h-screen  text-white flex flex-col items-center justify-start py-12 px-4">
         <h1 className="text-3xl md:text-5xl font-bold text-center mb-2">
           Building a Rubrics Cube Solving Robot & Hosting Workshop
            {/* <span className="text-pink-400">♡</span> */}
         </h1>
-        <p className="text-center text-yellow-300 text-lg mb-12">
+        <p className="text-center text-orange-400  text-lg mb-12">
           From solving cubes to shaping minds—guided 20 young innovators through their first robot builds.
         </p>
 
@@ -81,7 +81,7 @@ export default function Gallery() {
           4x4 in Schools – Professional Category
           {/* <span className="text-pink-400">♡</span> */}
         </h1>
-        <p className="text-center text-yellow-300 text-lg mb-12">
+        <p className="text-center text-orange-400  text-lg mb-12">
           Re-engineered a 4x4 with our 5-member school team for nationals. 
 Led engineering upgrades, beating two university teams at Yas Marina with precision.
         </p>
@@ -116,7 +116,7 @@ Led engineering upgrades, beating two university teams at Yas Marina with precis
           <h1 className={`${breeSerif.className} text-4xl sm:text-5xl font-semibold mb-6 text-white`}>
             Organised Guest Lecture for CSS
           </h1>
-          <p className="mb-8 text-lg leading-relaxed  text-yellow-300">
+          <p className="mb-8 text-lg leading-relaxed  text-orange-400 ">
             Hosted an expert-led guest lecture on advanced CSS techniques to enhance frontend design knowledge among students.
           </p>
         </motion.div>
@@ -140,10 +140,10 @@ Led engineering upgrades, beating two university teams at Yas Marina with precis
 
    <section className="py-20 px-6 md:px-24">
       <div className="text-center mb-16">
-        <h2 className="text-4xl md:text-5xl font-bold mb-4">
+        <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">
           PEEC Mobility
         </h2>
-        <p className="text-lg md:text-xl text-yellow-300 max-w-2xl mx-auto">
+        <p className="text-lg md:text-xl text-orange-400  max-w-2xl mx-auto">
           Retrofitting classic vehicles into EVs to drive circular innovation.
         </p>
       </div>
@@ -164,8 +164,9 @@ Led engineering upgrades, beating two university teams at Yas Marina with precis
               height={400}
               className="rounded-2xl shadow-xl"
             />
-            <p className="text-center text-yellow-300  text-lg mb-12">
-              PEEC’s Founder, Zach Faizal, and Chief Engineer guiding the transformation of a classic car into a fully electric vehicle.
+            <p className="text-center text-orange-400   text-lg mb-12">
+              {/* PEEC’s Founder, Zach Faizal, and Chief Engineer guiding the transformation of a classic car into a fully electric vehicle. */}
+            PEEC’s Founder, Zach Faizal (left), and Chief Engineer, Luis Antonio (right), leading the transformation of a classic car into a fully electric vehicle.
             </p>
           </div>
         </motion.div>
@@ -177,7 +178,7 @@ Led engineering upgrades, beating two university teams at Yas Marina with precis
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h3 className="text-2xl font-semibold mb-4">
+          <h3 className="text-2xl font-semibold mb-4 text-white">
             Breathing New Life into Classics
           </h3>
           <p className="text-gray-50 leading-relaxed mb-4">
@@ -222,6 +223,6 @@ Led engineering upgrades, beating two university teams at Yas Marina with precis
       </div>
 
 
-    </>
+    </div>
   );
 }

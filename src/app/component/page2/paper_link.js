@@ -19,14 +19,14 @@ export default function ResearchSection() {
       </div>
 
       <div className="max-w-5xl mx-auto px-6 z-10 relative py-4">
-        <h2 className="text-4xl md:text-5xl font-extrabold text-[#FFA500] text-center mb-16 italic">
+        <h2 className="text-4xl md:text-5xl font-extrabold text-orange-400  text-center mb-16 italic">
           Research Papers, Publications 
         </h2>
 
         <div className="grid md:grid-cols-2 gap-12 justify-center">
           {/* Paper 1 */}
           <div className="text-center md:text-left">
-            <h3 className="text-orange-400 font-extrabold italic text-lg mb-2">
+            <h3 className="text-orange-400  font-extrabold italic text-lg mb-2">
               IJMR (Accepted February 2025):<br />
               “Life Cycle Carbon Footprint Beyond Manufacturing”
             </h3>
@@ -45,7 +45,7 @@ export default function ResearchSection() {
 
           {/* Paper 2 */}
           <div className="text-center md:text-left">
-            <h3 className="text-orange-400 font-extrabold italic text-lg mb-2">
+            <h3 className="text-orange-400  font-extrabold italic text-lg mb-2">
               “Algorithmic Flight Control Theory and Predictive Modelling in Autonomous Drone Navigation”
             </h3>
             <p className="text-sm mb-2">

@@ -26,7 +26,7 @@ export default function Hero() {
           <img
             className="rounded-2xl shadow-xl object-cover object-center"
             alt="Founder"
-            src="/images/extra/hero1.png"
+            src="/images/extra/headofcss.png"
           />
         </motion.div>
 
@@ -106,7 +106,7 @@ Filmed 5 events and wrote newsletters to drive eco-action on campus.
           <img
             className="rounded-2xl shadow-xl object-cover object-center"
             alt="Founder"
-            src="/images/founder.jpeg"
+            src="/images/headofdesign.jpg"
           />
         </motion.div>
 
