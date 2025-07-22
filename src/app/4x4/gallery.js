@@ -33,7 +33,7 @@ export default function Gallery() {
           4x4 in Schools – Professional Category
           {/* <span className="text-pink-400">♡</span> */}
         </h1>
-        <p className="text-center text-yellow-300 text-lg mb-12">
+        <p className="text-center text-orange-400 text-lg mb-12">
           Re-engineered a 4x4 with our 5-member school team for nationals. 
 Led engineering upgrades, beating two university teams at Yas Marina with precision.
         </p>

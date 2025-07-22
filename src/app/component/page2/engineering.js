@@ -57,7 +57,7 @@ export default function Engineering() {
       description:
         "Designed and built a custom drone with autonomous capabilities to follow waypoints and complete missions without human intervention.",
       video: "",
-      image: "/images/extra/drone.png",
+      image: "/images/extra/drone.jpg",
     },
 
   ];

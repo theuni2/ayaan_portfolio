@@ -22,7 +22,7 @@ export default function Page() {
   return (
     <div>
         <Nav/>
-    <section className="bg-[#f9f9f9] py-20 px-6" id="community">
+    <section className="bg-white py-20 px-6" id="community">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-extrabold text-[#001f5f] text-center mb-12 italic">
           Community Work
@@ -32,7 +32,7 @@ export default function Page() {
           {communityRoles.map((role, index) => (
             <div
               key={index}
-              className="bg-white border-l-4 border-orange-500 shadow-md rounded-lg p-6 transition hover:shadow-xl"
+              className="bg-gray-100 border-l-4 border-orange-500 shadow-md rounded-lg p-6 transition hover:shadow-xl"
             >
               <h3 className="text-lg font-bold text-gray-900 mb-2">{role.title}</h3>
               <p className="text-gray-700 text-sm">{role.description}</p>

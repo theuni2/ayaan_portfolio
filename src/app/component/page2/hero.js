@@ -13,7 +13,7 @@ export default function Hero() {
     <section
       className="relative bg-cover bg-center bg-no-repeat h-screen flex items-center justify-center"
       style={{
-        backgroundImage: `url('/images/founder.jpeg')`,
+        backgroundImage: `url('/images/extra/hero1.jpeg')`,
       }}
     >
       {/* Dark overlay */}

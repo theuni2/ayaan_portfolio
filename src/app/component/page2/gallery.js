@@ -137,59 +137,57 @@ Led engineering upgrades, beating two university teams at Yas Marina with precis
 
 
 
-
-   <section className="py-20 px-6 md:px-24">
-      <div className="text-center mb-16">
-        <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">
-          PEEC Mobility
-        </h2>
-        <p className="text-lg md:text-xl text-orange-400  max-w-2xl mx-auto">
-          Retrofitting classic vehicles into EVs to drive circular innovation.
+<section className="py-20 px-6 md:px-24">
+  <div className="grid md:grid-cols-2 gap-12 items-center">
+    {/* Left: Image with caption */}
+    <motion.div
+      initial={{ opacity: 0, y: 40 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      viewport={{ once: true }}
+    >
+      <div>
+        <Image
+          src="/images/peec/peec5.jpeg"
+          alt="PEEC Founder and Chief Engineer"
+          width={600}
+          height={400}
+          className="rounded-2xl shadow-xl"
+        />
+        <p className="text-center text-orange-400 text-lg mb-12">
+          PEEC’s Founder, Zach Faizal (left), and Chief Engineer, Luis Antonio (right), leading the transformation of a classic car into a fully electric vehicle.
         </p>
       </div>
+    </motion.div>
 
-      <div className="grid md:grid-cols-2 gap-12 items-center">
-        {/* Left: Image with caption */}
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-        >
-          <div>
-            <Image
-              src="/images/peec/peec5.jpeg" // replace with actual image path
-              alt="PEEC Founder and Chief Engineer"
-              width={600}
-              height={400}
-              className="rounded-2xl shadow-xl"
-            />
-            <p className="text-center text-orange-400   text-lg mb-12">
-              {/* PEEC’s Founder, Zach Faizal, and Chief Engineer guiding the transformation of a classic car into a fully electric vehicle. */}
-            PEEC’s Founder, Zach Faizal (left), and Chief Engineer, Luis Antonio (right), leading the transformation of a classic car into a fully electric vehicle.
-            </p>
-          </div>
-        </motion.div>
+    {/* Right: Content */}
+    <motion.div
+      initial={{ opacity: 0, x: 40 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.8 }}
+      viewport={{ once: true }}
+    >
+      <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">
+        PEEC Mobility
+      </h2>
+      <p className="text-lg md:text-xl text-orange-400 mb-6">
+        Retrofitting classic vehicles into EVs to drive circular innovation.
+      </p>
 
-        {/* Right: Content */}
-        <motion.div
-          initial={{ opacity: 0, x: 40 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-        >
-          <h3 className="text-2xl font-semibold mb-4 text-white">
-            Breathing New Life into Classics
-          </h3>
-          <p className="text-gray-50 leading-relaxed mb-4">
-            PEEC Mobility is on a mission to turn classic vehicles into clean, sustainable electric machines. Through advanced retrofitting, we fuse timeless automotive design with cutting-edge green technology.
-          </p>
-          <p className="text-gray-50 leading-relaxed">
-            Our work promotes a circular economy—extending vehicle life, reducing waste, and creating powerful, efficient EVs that honor the past while driving the future.
-          </p>
-        </motion.div>
-      </div>
-    </section>
+      <h3 className="text-2xl font-semibold mb-4 text-white">
+        Breathing New Life into Classics
+      </h3>
+      <p className="text-gray-50 leading-relaxed mb-4">
+        PEEC Mobility is on a mission to turn classic vehicles into clean, sustainable electric machines. Through advanced retrofitting, we fuse timeless automotive design with cutting-edge green technology.
+      </p>
+      <p className="text-gray-50 leading-relaxed">
+        Our work promotes a circular economy—extending vehicle life, reducing waste, and creating powerful, efficient EVs that honor the past while driving the future.
+      </p>
+    </motion.div>
+  </div>
+</section>
+
+
 
 
 

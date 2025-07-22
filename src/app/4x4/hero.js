@@ -36,7 +36,7 @@ export default function FourByFourAwards() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-3xl md:text-5xl font-bold text-yellow-300"
+          className="text-3xl md:text-5xl font-bold text-orange-400"
         >
           4x4 in Schools Challenge
         </motion.h2>
@@ -62,7 +62,7 @@ export default function FourByFourAwards() {
               height={250}
               className="rounded-lg w-full h-60 object-cover mb-4"
             />
-            <h3 className="text-xl font-semibold text-yellow-300 text-center">
+            <h3 className="text-xl font-semibold text-orange-400 text-center">
               {award.title}
             </h3>
           </div>

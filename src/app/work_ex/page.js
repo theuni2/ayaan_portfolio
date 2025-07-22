@@ -59,7 +59,7 @@ export default function Page() {
   return (
     <div>
       <Nav/>
-    <section className="bg-[#fff7e6] text-[#001f5f] py-16 px-4">
+    <section className="bg-white text-[#001f5f] py-16 px-4">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-start">
         {/* Left side */}
         <div className="flex flex-col items-center">

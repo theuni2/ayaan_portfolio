@@ -106,7 +106,7 @@ Filmed 5 events and wrote newsletters to drive eco-action on campus.
           <img
             className="rounded-2xl shadow-xl object-cover object-center"
             alt="Founder"
-            src="/images/headofdesign.jpg"
+            src="/images/extra/headofdesign.jpg"
           />
         </motion.div>
 
