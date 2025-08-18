@@ -162,13 +162,9 @@ export default function Community_gallery() {
       viewport={{ once: true }}
     >
       <div>
-        <video
-          src="/images/mission_access/video.mp4"
-          controls
-          autoPlay
-          loop
-          muted
-          playsInline
+        <img
+          src="/images/mission_access/vid.gif"
+          
           className="rounded-2xl shadow-xl w-full h-auto"
         />
         <p className="text-center text-orange-400 text-lg mt-6">
