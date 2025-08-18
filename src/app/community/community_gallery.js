@@ -23,14 +23,14 @@ import { motion } from 'framer-motion';
 
 export default function Community_gallery() {
   const messages = [
-    { src: '/images/pehchaan/img.jpeg', alt: '1' },
+    // { src: '/images/pehchaan/img.jpeg', alt: '1' },
     { src: '/images/pehchaan/img1.jpeg', alt: '2' },
     { src: '/images/pehchaan/img2.jpeg', alt: '3' },
     { src: '/images/pehchaan/img3.jpeg', alt: '4' },
     { src: '/images/pehchaan/img4.jpeg', alt: '5' },
     { src: '/images/pehchaan/img5.jpeg', alt: '6' },
     { src: '/images/pehchaan/img6.jpeg', alt: '7' },
-    { src: '/images/pehchaan/img7.jpeg', alt: '8' },
+    // { src: '/images/pehchaan/img7.jpeg', alt: '8' },
   ];
 
   const x4 = [
@@ -40,9 +40,9 @@ export default function Community_gallery() {
        { src: '/images/paras/img4.jpeg', alt: '4' },
        { src: '/images/paras/img5.jpeg', alt: '5' },
        { src: '/images/paras/img6.jpeg', alt: '6' },
-       { src: '/images/paras/img7.jpeg', alt: '7' },
+    //    { src: '/images/paras/img7.jpeg', alt: '7' },
        { src: '/images/paras/img8.jpeg', alt: '8' },
-       { src: '/images/paras/img9.jpeg', alt: '9' },
+    //    { src: '/images/paras/img9.jpeg', alt: '9' },
        { src: '/images/paras/img10.jpeg', alt: '10' },
        { src: '/images/paras/img11.jpeg', alt: '11' },
 
@@ -50,11 +50,11 @@ export default function Community_gallery() {
   const img = [
        { src: '/images/nab/img1.jpeg', alt: '1' },
        { src: '/images/nab/img2.jpeg', alt: '2' },
-       { src: '/images/nab/img3.jpeg', alt: '3' },
+    //    { src: '/images/nab/img3.jpeg', alt: '3' },
        { src: '/images/nab/img4.jpeg', alt: '4' },
        { src: '/images/nab/img5.jpeg', alt: '5' },
        { src: '/images/nab/img6.jpeg', alt: '6' },
-       { src: '/images/nab/img7.jpeg', alt: '7' },
+    //    { src: '/images/nab/img7.jpeg', alt: '7' },
        { src: '/images/nab/img8.jpeg', alt: '8' },
        { src: '/images/nab/img9.jpeg', alt: '9' },
        { src: '/images/nab/img10.jpeg', alt: '10' },
@@ -132,7 +132,7 @@ export default function Community_gallery() {
           National Association for the Blind - Community Service
         </h1>
         <p className="text-center text-orange-400 text-lg mb-12">
-          Engaged in community workshop with the National Association for the Blind, an organization dedicated to empowering visually impaired individuals through education, skill development, and inclusion.
+          Engaged in community workshop with the National Association for the Blind, an organization dedicated to empowering visually impaired individuals.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {img.map((message, index) => (
@@ -172,7 +172,7 @@ export default function Community_gallery() {
           className="rounded-2xl shadow-xl w-full h-auto"
         />
         <p className="text-center text-orange-400 text-lg mt-6">
-          Ayaan, along with the co-founder of Mission Accessibility, Rahul Bajaj.
+          Ayaan (me), along with the co-founder of Mission Accessibility, Rahul Bajaj.
 
         </p>
       </div>
