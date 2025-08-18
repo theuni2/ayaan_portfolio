@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from '../component/nav';
 import Slider from '../work_ex/gallery';
 import Footer from '../component/footer';
+import Comunity_gallery from './community_gallery';
 
 export default function Page() {
   const communityRoles = [
@@ -43,6 +44,7 @@ export default function Page() {
 
     </section>
     <Slider/>
+    <Comunity_gallery/>
     <Footer/>
     </div>
   );

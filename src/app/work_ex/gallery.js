@@ -140,6 +140,7 @@ export default function Slider() {
     { src: '/images/golf/golf2.jpeg', text: '' },
     { src: '/images/golf/golf5.gif', text: '' },
     { src: '/images/golf/golf3.jpeg', text: '' },
+    { src: '/images/golf/golf6.jpeg', text: '' },
     
     
   ];

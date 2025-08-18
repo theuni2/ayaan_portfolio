@@ -18,6 +18,8 @@ export default function Gallery() {
     { src: '/images/x4/x43.jpeg', alt: 'Chat message 3' },
     { src: '/images/x4/x45.jpeg', alt: 'Chat message 3' },
     { src: '/images/x4/x46.jpeg', alt: 'Chat message 3' },
+    { src: '/images/x4/x46.jpeg', alt: 'Chat message 3' },
+    // { src: '/images/x4/x46.jpeg', alt: 'Chat message 3' },
   ];
 
   
@@ -56,41 +58,6 @@ Led engineering upgrades, beating two university teams at Yas Marina with precis
         </div>
       </main>
       </div>
-
-{/* 
-<div className="container mx-auto flex px-6 py-20 md:flex-row flex-col items-center">
-        <motion.div
-          initial={{ opacity: 0, x: -50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
-          className="lg:flex-grow md:w-1/2 lg:pr-16 md:pr-10 flex flex-col md:items-start md:text-left items-center text-center"
-        >
-          <h1 className={`${breeSerif.className} text-4xl sm:text-5xl font-semibold mb-6 text-white`}>
-            Organised Guest Lecture for CSS
-          </h1>
-          <p className="mb-8 text-lg leading-relaxed  text-yellow-300">
-            Hosted an expert-led guest lecture on advanced CSS techniques to enhance frontend design knowledge among students.
-          </p>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, x: 50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
-          className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mt-12 md:mt-0"
-        >
-          <img
-            className="rounded-2xl shadow-xl object-cover object-center"
-            alt="CSS Lecture"
-            src="/images/extra/img.jpeg"
-          />
-        </motion.div>
-      </div> */}
-
-
-
-
-
 
     </>
   );

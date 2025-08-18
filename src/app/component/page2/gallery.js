@@ -184,6 +184,8 @@ Led engineering upgrades, beating two university teams at Yas Marina with precis
         Our work promotes a circular economy—extending vehicle life, reducing waste, and creating powerful, efficient EVs that honor the past while driving the future.
       </p>
     </motion.div>
+
+    
   </div>
 </section>
 

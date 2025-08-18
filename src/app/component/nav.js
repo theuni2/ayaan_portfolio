@@ -51,10 +51,12 @@ export default function Nav() {
             isOpen ? 'flex' : 'hidden'
           } flex-col md:flex md:flex-row md:items-center absolute md:static top-20 left-0 w-full md:w-auto bg-white md:bg-transparent p-6 md:p-0 space-y-4 md:space-y-0 md:space-x-6 shadow-md md:shadow-none transition-all duration-300`}
         >
-          <Link href="/" className="text-gray-800 hover:text-orange-600" onClick={() => setIsOpen(false)}>Leadership</Link>
-          <Link href="/activity#research" className="text-gray-800 hover:text-orange-600" onClick={() => setIsOpen(false)}>Research/Publication</Link>
-          <Link href="/activity#engineering" className="text-gray-800 hover:text-orange-600" onClick={() => setIsOpen(false)}>Engineering</Link>
-          <Link href="/activity#gallery" className="text-gray-800 hover:text-orange-600" onClick={() => setIsOpen(false)}>Gallery</Link>
+
+          <Link href="/" className="text-gray-800 hover:text-orange-600" onClick={() => setIsOpen(false)}>Home</Link>
+          <Link href="/#research" className="text-gray-800 hover:text-orange-600" onClick={() => setIsOpen(false)}>Research/Publication</Link>
+          <Link href="/#engineering" className="text-gray-800 hover:text-orange-600" onClick={() => setIsOpen(false)}>Engineering</Link>
+          <Link href="/#gallery" className="text-gray-800 hover:text-orange-600" onClick={() => setIsOpen(false)}>Gallery</Link>
+          <Link href="/leadership" className="text-gray-800 hover:text-orange-600" onClick={() => setIsOpen(false)}>Leadership</Link>
           <Link href="/work_ex" className="text-gray-800 hover:text-orange-600" onClick={() => setIsOpen(false)}>Work Experience</Link>
           <Link href="/community" className="text-gray-800 hover:text-orange-600" onClick={() => setIsOpen(false)}>Community Service</Link>
         </nav>
